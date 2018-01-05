@@ -21,7 +21,7 @@ public class Party {
       return this.beverages;
     }
     public String getEntertainment() {
-      return null;
+      return this.entertainment;
    }
 
 }
