@@ -11,7 +11,7 @@ public class Party {
       return this.guests;
     }
     public String getFood() {
-   return null;
+      return this.food;
     }
 
 }
