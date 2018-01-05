@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ad7d7927-c1f8-463e-89b2-f358a4c4594d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Party.java" afterPath="$PROJECT_DIR$/src/main/java/models/Party.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,15 +35,17 @@
       <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="391">
+              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +54,8 @@
       <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="448">
+              <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -588,9 +591,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartyTest - 2018.01.05 at 14h 33m 15s.xml">
-      <configuration name="PartyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PartyTest - 2018.01.05 at 14h 33m 43s.xml">
       <configuration name="PartyTest" configurationId="JUnit" />
     </history-entry>
@@ -616,6 +616,9 @@
       <configuration name="PartyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PartyTest - 2018.01.05 at 14h 47m 47s.xml">
+      <configuration name="PartyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest - 2018.01.05 at 14h 52m 07s.xml">
       <configuration name="PartyTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -671,23 +674,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="448">
+          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
