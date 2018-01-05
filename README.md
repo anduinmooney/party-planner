@@ -6,3 +6,4 @@
 | Correctly determine drinks for party | Beer | Beer |
 | Correctly determine entertainment for party | Concert | Concert |
 | Correctly determine cost for party | Guests: 100, Food: Dinner, Beverages: Beer, Entertainment: Concert, | $2500 |
+| Apply coupons for party | Entertainment Coupon | $-150 |

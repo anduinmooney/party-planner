@@ -23,12 +23,7 @@ public class Party {
       this.beveragePrice = this.beverages * 25;
       this.entertainmentPrice = this.entertainment * 250;
       this.price = this.guestPrice + this.foodPrice + this.beveragePrice + this.entertainmentPrice;
-
-
-//      this.price = this.guests * 5 * this.food * 50 * this.food * 25 * this.entertainment * 250;;
-//      this.price = this.food * 50;
-//      this.price = this.food * 25;
-//      this.price = this.entertainment * 250;
+      
     }
     public int getGuests() {
       return this.guests;
