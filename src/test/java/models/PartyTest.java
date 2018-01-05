@@ -17,4 +17,9 @@ public class PartyTest {
         Party testParty = new Party(10, "food", "beverages", "entertainment");
         assertEquals(10, testParty.getGuests());
     }
+    @Test
+    public void newParty_getFood_returnPizza() {
+        Party testParty = new Party(10, "food", "beverages", "entertainment");
+        assertEquals("food", testParty.getFood());
+    }
 }
