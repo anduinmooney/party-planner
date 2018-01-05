@@ -1,7 +1,12 @@
 package models;
 
 public class Party {
-    public Party(Integer guests, String food, String beverages, String entertainment) {
-
+   private Integer guests;
+   public Party(Integer guests) {
+      this.guests = guests;
     }
+    public int getGuests() {
+      return 0;
+    }
+
 }
