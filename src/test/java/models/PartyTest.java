@@ -13,13 +13,18 @@ public class PartyTest {
         assertEquals(true, testParty instanceof Party);
     }
     @Test
-    public void newParty_getGuests_returnTen() {
+    public void newParty_getGuests_returnGuest() {
         Party testParty = new Party(10, "food", "beverages", "entertainment");
         assertEquals(10, testParty.getGuests());
     }
     @Test
-    public void newParty_getFood_returnPizza() {
+    public void newParty_getFood_returnFood() {
         Party testParty = new Party(10, "food", "beverages", "entertainment");
         assertEquals("food", testParty.getFood());
+    }
+    @Test
+    public void newParty_getDrink_returnDrink() {
+        Party testParty = new Party(10, "food", "beverages", "entertainment");
+        assertEquals("beverages", testParty.getDrink());
     }
 }
