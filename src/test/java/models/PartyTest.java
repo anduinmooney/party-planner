@@ -32,4 +32,9 @@ public class PartyTest {
         Party testParty = new Party(10, "food", "beverages", "entertainment");
         assertEquals("entertainment", testParty.getEntertainment());
     }
+    @Test
+    public void newParty_getPriceGuest_returnPriceGuest() {
+        Party testParty = new Party(10, "food", "beverages", "entertainment");
+        assertEquals("50", testParty.getPrice());
+    }
 }
