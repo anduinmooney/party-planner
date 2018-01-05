@@ -35,7 +35,7 @@ public class PartyTest {
     @Test
     public void newParty_getPrice_returnPrice() {
         Party testParty = new Party(10, 3, 3, 3);
-        assertEquals(150, testParty.getPrice());
+        assertEquals(1025, testParty.getPrice());
     }
 
 }

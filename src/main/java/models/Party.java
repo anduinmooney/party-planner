@@ -6,13 +6,29 @@ public class Party {
    private Integer beverages;
    private Integer entertainment;
    private int price;
+   private int guestPrice;
+   private int foodPrice;
+   private int beveragePrice;
+   private int entertainmentPrice;
+
+
+
    public Party(Integer guests, Integer food, Integer beverages, Integer entertainment) {
       this.guests = guests;
       this.food = food;
       this.beverages = beverages;
       this.entertainment = entertainment;
-      this.price = this.guests * 5;
-      this.price = this.food * 50;
+      this.guestPrice = this.guests * 5;
+      this.foodPrice = this.food * 50;
+      this.beveragePrice = this.beverages * 25;
+      this.entertainmentPrice = this.entertainment * 250;
+      this.price = this.guestPrice + this.foodPrice + this.beveragePrice + this.entertainmentPrice;
+
+
+//      this.price = this.guests * 5 * this.food * 50 * this.food * 25 * this.entertainment * 250;;
+//      this.price = this.food * 50;
+//      this.price = this.food * 25;
+//      this.price = this.entertainment * 250;
     }
     public int getGuests() {
       return this.guests;
@@ -27,7 +43,7 @@ public class Party {
       return this.entertainment;
     }
     public int getPrice() {
-      return 0;
+      return this.price;
     }
 
 }
