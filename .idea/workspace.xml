@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad7d7927-c1f8-463e-89b2-f358a4c4594d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Party.class" afterPath="$PROJECT_DIR$/out/production/classes/models/Party.class" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Party.java" afterPath="$PROJECT_DIR$/src/main/java/models/Party.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,13 +36,13 @@
       <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +51,8 @@
       <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -596,6 +597,18 @@
     <history-entry file="PartyTest - 2018.01.05 at 14h 28m 45s.xml">
       <configuration name="PartyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PartyTest - 2018.01.05 at 14h 32m 08s.xml">
+      <configuration name="PartyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest - 2018.01.05 at 14h 33m 15s.xml">
+      <configuration name="PartyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest - 2018.01.05 at 14h 33m 43s.xml">
+      <configuration name="PartyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest - 2018.01.05 at 14h 34m 25s.xml">
+      <configuration name="PartyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -649,21 +662,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
