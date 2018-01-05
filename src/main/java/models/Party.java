@@ -26,7 +26,7 @@ public class Party {
       return this.entertainment;
     }
     public int getPrice() {
-      return 0;
+      return this.price;
     }
 
 }
