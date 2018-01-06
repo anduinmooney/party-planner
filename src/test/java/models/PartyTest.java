@@ -9,33 +9,37 @@ import java.util.ArrayList;
 public class PartyTest {
     @Test
     public void newParty_partyCreation() {
-        Party testParty = new Party(50, 3, 3, 3);
+        Party testParty = new Party(50, 3, 3, 3, 0);
         assertEquals(true, testParty instanceof Party);
     }
     @Test
     public void newParty_getGuests_returnGuest() {
-        Party testParty = new Party(10, 3, 3, 3);
+        Party testParty = new Party(10, 3, 3, 3, 0);
         assertEquals(10, testParty.getGuests());
     }
     @Test
     public void newParty_getFood_returnFood() {
-        Party testParty = new Party(10, 3, 3, 3);
+        Party testParty = new Party(10, 3, 3, 3, 0);
         assertEquals(3, testParty.getFood());
     }
     @Test
     public void newParty_getDrink_returnDrink() {
-        Party testParty = new Party(10, 3, 3, 3);
+        Party testParty = new Party(10, 3, 3, 3, 0);
         assertEquals(3, testParty.getDrink());
     }
     @Test
     public void newParty_getEntertainment_returnEntertainment() {
-        Party testParty = new Party(10, 3, 3, 3);
+        Party testParty = new Party(10, 3, 3, 3, 0);
         assertEquals(3, testParty.getEntertainment());
     }
     @Test
     public void newParty_getPrice_returnPrice() {
-        Party testParty = new Party(10, 3, 3, 3);
+        Party testParty = new Party(10, 3, 3, 3, 0);
         assertEquals(1025, testParty.getPrice());
     }
-
+    @Test
+    public void newParty_getPrice_returnCoupon() {
+        Party testParty = new Party(10, 3, 3, 3, 1);
+        assertEquals(1, testParty.getCoupon());
+    }
 }
