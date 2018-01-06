@@ -13,13 +13,13 @@ _This application will ask you a series of questions about a party you are plann
 * _Clone repository from github_
 * _Launch application with IntelliJ_
 * _Run!_
-* _
 
 _Make sure to install Intellij or you won't be able to run this app._
 
-##Specifications
+## Specifications
 
 | Behavior | Input | Output |
+| :-------------     | :------------- | :------------- |
 | Correctly determine amount of guests at party | 50 | 50 |
 | Correctly determine food for party | Dinner | Dinner |
 | Correctly determine drinks for party | Beer | Beer |
