@@ -23,7 +23,7 @@ public class Party {
       this.beveragePrice = this.beverages * 25;
       this.entertainmentPrice = this.entertainment * 250;
       this.price = this.guestPrice + this.foodPrice + this.beveragePrice + this.entertainmentPrice;
-      
+
     }
     public int getGuests() {
       return this.guests;
