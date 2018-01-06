@@ -45,7 +45,7 @@ public class Party {
       return this.price;
     }
     public int getCoupon() {
-      return 0;
+      return this.coupon;
    }
 
 }
